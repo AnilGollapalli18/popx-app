@@ -1,0 +1,103 @@
+.signup-container {
+  font-family: 'Inter', 'Segoe UI', 'Poppins', system-ui, sans-serif;
+    background: #fff;
+    padding: 16px;
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border:1px solid;
+    border-radius:5px;
+  }
+  
+  .signup-title {
+    font-size: 22px;
+    font-weight: 640;
+    width:50%;
+    color: #1d1d1d;
+    margin-top:-8px;
+    margin-bottom: 20px;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  
+  .floating-label1 {
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    background: white;
+    padding: 0 4px;
+    font-size: 11px;
+    font-weight: 500;
+    color:rgb(232, 4, 253);
+    z-index: 1;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
+    height: 38px;
+    padding: 0 10px;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    color: #1d1d1d;
+    box-sizing: border-box;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .radio-label {
+    margin-top:-10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color:rgb(12, 12, 12);
+  }
+  
+  
+  .radio-options {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .radio-options label {
+    font-size: 13px;
+    color:rgb(10, 10, 10);
+    font-weight: 500;
+  }
+  .radio-options input[type="radio"] {
+  accent-color:rgb(205, 8, 245); /* Or any modern color you prefer */
+}
+
+  
+  .btn-primary2 {
+    background-color:rgb(137, 6, 197);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom:0px;
+  }
+  .form-error {
+    color: #ff4d4d;
+    font-size: 10px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    font-weight: 500;
+  }
+  
