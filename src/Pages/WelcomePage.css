@@ -3,7 +3,7 @@
   font-family: 'Inter', 'Segoe UI', 'Poppins', system-ui, sans-serif;
   border:1px solid;
   padding: 0 16px 24px; /* Less padding overall */
- max-height: 100vh; /* Use exact height instead of min-height */
+  height: 70vh; /* Use exact height instead of min-height */
   display: flex;
   flex-direction: column;
   max-width: 430px;
