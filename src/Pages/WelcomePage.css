@@ -1,7 +1,7 @@
 /* File: Pages/WelcomePage.css */
 .welcome-container {
   font-family: 'Inter', 'Segoe UI', 'Poppins', system-ui, sans-serif;
-  border:1px solid;
+  /* border:1px solid;/*
   padding: 0 16px 24px; /* Less padding overall */
   height: 70vh; /* Use exact height instead of min-height */
   display: flex;
@@ -14,7 +14,7 @@
   align-items: center;
   text-align: center;
   overflow: hidden; /* Prevent scroll caused by overflow */
-  border-radius:5px;
+  /* border-radius:5px;*/
 }
 
 .welcome-logo {
